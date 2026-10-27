@@ -1,0 +1,21 @@
+# 敏感文件 - 永不提交
+.env
+.env.*
+*.token
+token
+*.key
+*.pem
+credentials*
+secrets*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
